@@ -1,0 +1,16 @@
+int main()
+{
+    float cFabrica,cImpostos,cDistribuidor,cConsumidor;
+    
+    printf("Informe o valor do custo Fabrica do veiculo: ");
+    scanf("%f",&cFabrica);
+    
+    cImpostos=cFabrica * 0.45;
+    cDistribuidor=cFabrica * 0.28;
+    
+    cConsumidor = cFabrica + cImpostos + cDistribuidor;
+    
+    printf("o valor do carro sera: %f ",cConsumidor);
+    
+    return 0;
+}
