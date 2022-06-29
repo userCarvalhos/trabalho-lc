@@ -1,0 +1,20 @@
+int main()
+{
+    
+   int ano,mes,dia;
+ 
+   printf("escreva sua data (somente em ano)");
+   scanf("%d",&ano);
+
+   printf("escreva sua data (somente em mês)");
+   scanf("%d",&mes);
+
+   printf("escreva sua data (somente em dias)");
+   scanf("%d",&dia);
+    
+   dia=(dia+(ano*365)+(mes*30));
+   
+   printf("sua idade em dias e:%d ",dia);
+    
+    return 0;
+}
