@@ -1,0 +1,27 @@
+# inclui  < stdio.h >
+
+int  principal ()
+{   
+    int inicio,termina,duracao;
+
+    printf ( " Informe a hora de início do jogo de Xadrez: " );
+    scanf ( " %d " ,&inicio);
+
+    printf ( " \n Informe a hora de término do jogo de Xadrez " );
+    scanf ( " %d " ,&termina);
+
+    if (terminal <= inicio){
+        duracao = ( 24 - inicio) + termino;
+    } senão {
+        duracao = termino - inicio;
+    }
+
+    if (duração > 24 ){
+        printf ( " \n Partida Empatada! Tempo acabou! " );
+        retorna  0 ;
+    } senão {
+        printf ( " \n Duracao da partida foi de %d horas " ,duracao);
+    }
+   
+    retorna  0 ;
+}
