@@ -1,0 +1,11 @@
+int n= 0;    
+
+                               if (n >=0){    
+
+                               System.out.println("O número”+ n +“é positivo");    
+
+                               }    
+
+                               else{    
+
+                               System.out.println("O número”+ n +“é negativo");    
