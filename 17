@@ -1,0 +1,22 @@
+# inclui  < stdio.h >
+
+int  principal ()
+{   
+    float n1,n2,media;
+
+    printf ( " Informe a primeira nota: " );
+    scanf ( " %f " ,&n1);
+
+    printf ( " Informe a segunda nota: " );
+    scanf ( " %f " ,&n2);
+
+    mídia = (n1 + n2)/ 2 ;
+
+    if (media >= 6 ){
+        printf ( " O aluno foi aprovado e sua media final foi de %.2f " ,media);
+    } senão {
+        printf ( " O aluno foi Reprovado e sua média infeliz foi de %.2f " ,media);
+    }
+
+    retorna  0 ;
+}
