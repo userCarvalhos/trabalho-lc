@@ -1,0 +1,21 @@
+*/
+# inclui  < stdio.h >
+
+int  principal ()
+{   
+    int a,b;
+
+    printf ( " Informe o primeiro valor: " );
+    scanf ( " %d " ,&a);
+
+    printf ( " Informe o segundo valor: " );
+    scanf ( " %d " ,&b);
+
+    se (a>b){
+        printf ( " O maior valor informado foi %d " ,a);
+    } senão {
+        printf ( " O maior valor informado foi %d " , b);
+    }
+
+    retorna  0 ;
+}
