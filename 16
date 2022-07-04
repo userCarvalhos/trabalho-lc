@@ -1,0 +1,21 @@
+# inclui  < stdio.h >
+
+int  principal ()
+{   
+    float quantidade,valor,valorTotal;
+    
+    printf ( " Informe o número de maçãs compradas: " );
+    scanf ( " %f " ,&quantidade);
+
+    if (quantidade >= 12 ){
+        valor = 1,00 ;
+    } senão {
+        valor = 1,30 ;
+    }
+
+    valorTotal = quantidade * valor;
+
+    printf ( " O valor total é R$ %.2f " ,valorTotal);
+
+    retorna  0 ;
+}
