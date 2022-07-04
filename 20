@@ -1,0 +1,13 @@
+nt main()
+{
+    int a,b;
+    
+    printf("informe um valor: ");
+    scanf("%d",&a);
+    
+    b=a - 1;
+    
+    printf("o antecessor do meu numero é %d",b);
+
+    return 0;
+}
