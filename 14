@@ -1,0 +1,16 @@
+ int valor;
+    
+    printf("informe um valor");
+    scanf("%d,&valor");
+    
+    valor > 10;
+    
+    printf("É MAIOR QUE 10");
+    
+    valor < 10;
+    
+    printf("É MENOR QUE 10");
+    
+    
+    return 0;
+}
