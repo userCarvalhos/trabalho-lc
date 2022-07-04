@@ -1,0 +1,14 @@
+# inclui  < stdio.h >
+
+int  principal ()
+{   
+    flutuar f,c;
+    printf ( " Informe a temperatura em graus Fahrenheit: " );
+    scanf ( " %f " ,&f);
+
+    c = ( 5 *(f- 32 )/ 9 );
+
+    printf ( " \n O valor convertido é %.2fº Celsius " );
+
+    retorna  0 ;
+}
